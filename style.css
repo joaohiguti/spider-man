@@ -1,0 +1,85 @@
+
+@import url('https://fonts.cdnfonts.com/css/the-amazing-spider-man'); /*fonte para titulo e paragrafo*/
+/* reset basico */
+ 
+*{
+    box-sizing: border-box;
+    margin: 0%; /* o espaço de fora da caixa, margem de fora */
+    padding: 0%; /* espaço de dentro, como uma margem */
+}
+body {
+    text-align: center;
+    background-color: rgb(23, 154, 208);
+    color: rgb(0, 0, 0);
+    
+}
+header {
+    color: #ff0000;
+    padding: 15px;
+    background: #0044FF;
+    background: linear-gradient(90deg, rgba(0, 68, 255, 1) 0%, rgba(253, 29, 29, 1) 100%);
+    
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block; /* deixa os itens de lado a lado */
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #c0c0c096;
+    border-radius: 10px;
+}
+nav a:hover { /* o nav a:hover serve para quando você passar seu mause em cima vai ter uma alteração */
+    background-color: #b1b1b196; /* cor na parte de contorno dos cards */
+    font-size: 20px;
+    color: white;
+}
+.card { /* article dos cards dos personagens */
+    width: 300px;
+    display: inline-block;
+    margin: 40px;
+    padding: 30px;
+    background-color: rgba(187, 187, 187, 0.274);
+    border-radius: 30px;
+    text-align: center;
+}
+.card img { /* as fotos dentro do card */
+    width: 100%;
+    width: 250px; 
+    border-radius: 10px;
+    object-fit: cover;
+}
+h1 {
+    font-family: 'THE AMAZING SPIDER-MAN', sans-serif; /* fonte do homem aranha */
+    font-size: 100px;
+}
+#personagens {
+    background-image: url(./imagens/marvels-spider-man-3840x2160-11821.jpeg);
+    
+    /* alterar o tamnha da imagem, eu vou usar o background-size - cover, contrain 
+    não repetir a imagem varias vezes - background-repeat:no repeat mudar a posição da imagem - backgound position */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    
+}
+#personagens h2{
+    padding: 51px;
+    color: #000000;
+}
+.filmes {
+    display: inline-block; display; /* para cards */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    padding-top: 20px;
+}
+#section-filmes {
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.842);
+    
+
+}
+
+
