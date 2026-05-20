@@ -11,6 +11,7 @@ body {
     text-align: center;
     background-color: rgb(23, 154, 208);
     color: rgb(0, 0, 0);
+
     
 }
 header {
@@ -32,6 +33,7 @@ nav a {
 nav a:hover { /* o nav a:hover serve para quando você passar seu mause em cima vai ter uma alteração */
     background-color: #b1b1b196; /* cor na parte de contorno dos cards */
     font-size: 20px;
+    padding: 15px;
     color: white;
 }
 .card { /* article dos cards dos personagens */
@@ -44,8 +46,7 @@ nav a:hover { /* o nav a:hover serve para quando você passar seu mause em cima 
     text-align: center;
 }
 .card img { /* as fotos dentro do card */
-    width: 100%;
-    width: 250px; 
+    width: 100%; 
     border-radius: 10px;
     object-fit: cover;
 }
@@ -64,22 +65,34 @@ h1 {
     
 }
 #personagens h2{
-    padding: 51px;
+    padding: 50px;
     color: #000000;
 }
 .filmes {
-    display: inline-block; display; /* para cards */
-    padding: 15px;
-    margin: 10px;
-    border-radius: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 15px;
     padding: 30px;
-    padding-top: 20px;
-}
-#section-filmes {
-    margin-top: 30px;
-    background-color: rgba(255, 255, 255, 0.842);
+    text-align: center;
+    background-color: rgba(187, 187, 187, 0.274);
+    border-radius: 10px;
     
 
 }
+#section-filmes {
+    display: inline-block; /* para cards */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    
 
+}
+footer{
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(0, 68, 255, 1) 0%, rgba(253, 29, 29, 1) 100%);
+    
+}
 
+#titulo_principal{
+    color: yellow;
+}
